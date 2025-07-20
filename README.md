@@ -11,9 +11,9 @@ DESIGNED BY S.M.A Coding Channel
 
 ---
 
-## 🚀 Welcome to Helwan O.S
+## 🚀 Welcome to Helwan Linux
 
-**Helwan Linux Al-Amal - Cinnamon Edition**  
+**Helwan Linux Stable Edition**  
 Built on top of Arch Linux using ArchISO and Calamares.  
 Designed by developers, for developers and creators.
 
