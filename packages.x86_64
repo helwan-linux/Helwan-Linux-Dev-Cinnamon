@@ -254,7 +254,7 @@ mariadb
 #############
 #Multimedia##
 #############
-mpv
+vlc
 audacious
 vokoscreen
 
@@ -315,4 +315,3 @@ hel-builder
 hel-text-editor
 hel-diagram
 hel-bootfix
-#hel-sys-manager
