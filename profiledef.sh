@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="Helwan_Al-amal_Cinnamon_Momo"
-iso_label="Helwan_Al-amal_Cinnamon_Momo"
+iso_name="Helwan_Linux"
+iso_label="Helwan_Linux"
 iso_publisher="helwanlinux <helwanlinux@gmail.com>"
 iso_application="Helwan Linux Live/Rescue DVD"
-iso_version="v5.1"
+iso_version="v1.0"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
