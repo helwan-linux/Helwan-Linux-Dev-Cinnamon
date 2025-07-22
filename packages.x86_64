@@ -152,6 +152,7 @@ lightdm-slick-greeter
 base-devel
 pacman-contrib
 bash-completion
+zenity
 xterm
 
 ###################
