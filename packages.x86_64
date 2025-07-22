@@ -212,7 +212,6 @@ lutris
 vkd3d
 gamemode
 mangohud
-#steam
 
 #########
 #office##
@@ -238,6 +237,7 @@ network-manager-applet
 bluez
 bluez-utils
 pipewire-pulse
+reflector
 
 #########################
 ##Programming-languages##
