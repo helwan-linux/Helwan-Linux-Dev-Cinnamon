@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="Helwan-Linux-stable"
-iso_label="Helwan-Linux-stable"
+iso_label="Helwan-Linux-stable-v1.0"
 iso_publisher="helwanlinux <helwanlinux@gmail.com>"
 iso_application="Helwan Linux Live/Rescue DVD"
 iso_version="v1.0"
