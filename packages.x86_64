@@ -256,7 +256,7 @@ mariadb
 #############
 #Multimedia##
 #############
-vlc
+mpv
 audacious
 vokoscreen
 
