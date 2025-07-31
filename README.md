@@ -1,182 +1,187 @@
-DESIGNED BY S.M.A Coding Channel
-
-<h1 align="center">
-  <img src="https://github.com/helwan-linux/Helwan-Artwork/blob/main/icons/icon.png"><br>
-  Helwan Linux Developer Edition
-</h1>
-
+# Helwan Linux Developer Edition
 <p align="center">
-  Arch-Linux based distro built with <code>archiso</code> for programmers and creators.
+  <img src="https://github.com/helwan-linux/Helwan-Artwork/blob/main/icons/icon.png" alt="Helwan Linux" />
+  <br>Helwan Linux Developer Edition
 </p>
 
+<p align="center">
+  Arch-Linux based distro built with <code>archiso for programmers and YouTubers</code>.
+</p>
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/helwanlinux)
+
+## Welcome to Helwan O.S
+
+Helwan Linux - Cinnamon Edition  
+Built on top of Arch Linux using archiso and Calamares  
+Designed by developers, for developers and creators
+
 ---
 
-## 🚀 Welcome to Helwan Linux
+## 🚀 What is Helwan O.S?
 
-**Helwan Linux Stable Edition**  
-Built on top of Arch Linux using ArchISO and Calamares.  
-Designed by developers, for developers and creators.
-
----
-
-## 💡 What is Helwan Linux?
-
-Helwan Linux is not just another Linux distro.  
-It’s a handcrafted Arch-based system built to empower programmers, YouTubers, and power users with a fast, secure, and full-featured desktop — right out of the box.
+Helwan O.S is not just another Linux distro.  
+It’s a handcrafted Arch-based system built to empower programmers, YouTubers, and power users with a fast, secure, and full-featured desktop — right out of the box.  
 
 With the Cinnamon desktop, the elegance of simplicity meets the power of performance.
 
 ---
 
-## 🆕 What's New in Helwan Linux stable v1.0?
+## 💡 What's inside?
 
-Helwan Linux 5.0 (Stable v1.0) introduces a full suite of original in-house applications, crafted to enhance productivity, learning, development, system management, and overall user experience.
+Everything a creative or a coder needs — already preinstalled and ready to go.
 
----
-
-### ⚙️ System Utilities
-
-- **hel-process** – Minimal task manager and resource monitor.  
-- **hel-terminal** – Customizable terminal emulator (demo version).  
-- **hel-sec-audit** – Lightweight system security audit tool.  
-- **hel-netfix** – Graphical system/network repair tool.  
-- **hel-bootfix** – One-click repair tool for bootloader and boot issues.  
-- **helufw** – GUI frontend for configuring and managing the system firewall.  
-
----
-
-### 🧠 AI & Learning
-
-- **hel-ai-gate** – Lightweight AI and machine learning gateway that works without a browser.  
-- **hel-tutorial** – Offline Bash scripting tutorials in English, with interactive Linux basics for beginners.  
-
----
-
-### 📊 Data & Visualization
-
-- **hel-insight** – Visual tool for analyzing and plotting CSV and Excel data.  
-- **hel-diagram** – Create flowcharts and system diagrams easily with a simple GUI.  
-
----
-
-### 📁 Development Tools
-
-- **hel-builder** – Tool to edit, create, and manage `PKGBUILD` files.  
-- **hel-markdown** – Simple markdown editor for documentation and notes.  
-- **hel-text-editor** – Fast and minimal code & text editor.  
-- **hel-web-server** – Local development server with GUI control.  
-
----
-
-### 💻 User Experience
-
-- **hel-welcome-app** – First-time setup guide and tips for new users.  
-- **hel-store** – A curated, modern app store designed for Helwan Linux users.  
-- **helfetch / helfetch-ng** – Elegant Neofetch-style system info fetchers (original + enhanced versions).  
-- **hel-usb-writer** – Reliable tool to flash ISO images to USB drives.  
-
----
-
-### 🎮 Entertainment
-
-- **hel-blocks** – A Tetris-inspired game with a Helwan Linux theme.  
-
----
-
-> All tools are developed in-house using GTK, Bash, or Python — offering an integrated, lightweight, and expressive user experience for all Helwan Linux users.
-
-
----
-
-## ✍️ Code Editors & Dev Tools
+### ✍️ 1. Code Editors & Dev Tools
+Lightweight, powerful, and versatile development environments:
 
 - **Geany** – Fast & simple IDE for any language  
-- **VS Code** – Industry-standard code editor  
+- **VS Code (code)** – Industry-standard code editor  
 - **Meld** – Visual diff and merge tool  
 - **Python-PyQt5** – Build stunning GUIs in Python  
-- **QtCreator + qt5-tools** – C++ GUI development  
-- **DBeaver** – Universal SQL client
+- **QtCreator + qt5-tools** – C++ GUI development made easy  
+- **DBeaver** – A universal SQL client & DB management platform
+
+### 🧠 2. Programming Languages & Dev Environments
+From scripting to system programming, everything’s here:
+
+- **Git** – Version control system  
+- **Perl** – Practical text-processing language  
+- **Python** – Versatile scripting & AI  
+- **OpenJDK (jdk)** – Java development environment  
+- **PHP** – Web scripting  
+- **Node.js** – JavaScript runtime  
+- **Go** – Fast systems/network programming  
+- **Rust** – Memory-safe performance  
+- **Lua** – Lightweight embedded scripting  
+- **SQLite** – Embedded SQL engine  
+- **MariaDB** – High-performance relational DB
+
+### 🐳 3. Docker & DevOps Ready
+Containers and orchestration tools preloaded:
+
+- **Docker** – Build and run containers  
+- **Docker-Compose** – Manage multi-container apps  
+- **Lazydocker** – Terminal UI for managing Docker
+
+### 🎬 4. Multimedia Creation
+Create, record, and consume content:
+
+- **VLC** – All-format video/audio player  
+- **Audacious** – Lightweight music player  
+- **Vokoscreen** – Screen recorder for tutorials
+
+### 🌐 5. Internet & Communication
+Stay connected:
+
+- **Firefox** – Secure, fast web browser  
+- **KDEConnect** – Sync your phone with your PC  
+- **HexChat** – Modern IRC client  
+- **Geary** – Lightweight email client
+
+### 📝 6. Office Suite
+- **LibreOffice Still** – Full-featured document editing suite
+
+### ⚙️ 7. System Tools & Utilities
+Your Swiss army knife of system control:
+
+- **Timeshift** – System restore like Time Machine  
+- **GParted** – Partition management made easy  
+- **UFW + helUFW** – Firewall management CLI + GUI  
+- **MTools** – Access MS-DOS disks  
+- **HTop** – Interactive system monitor  
+- **YAY** – AUR helper for installing community packages  
+- **helstore** – GUI package manager
+
+✨ And much more...
 
 ---
 
-## 🧠 Programming Languages & Dev Environments
-
-- Git, Perl, Python, OpenJDK, PHP, Node.js, Go, Rust, Lua  
-- SQLite, MariaDB
-
----
-
-## 🐳 Docker & DevOps Ready
-
-- Docker, Docker-Compose, Lazydocker
-
----
-
-## 🎬 Multimedia Creation
-
-- VLC, Audacious, Vokoscreen
-
----
-
-## 🌐 Internet & Communication
-
-- Firefox, KDEConnect, HexChat, thunderbird
-
----
-
-## 📝 Office Suite
-
-- LibreOffice Still
-
----
-
-## ⚙️ System Tools & Utilities
-
-- Timeshift, GParted, UFW + GUFW  
-- MTools, HTop, YAY
-
----
-
-## 🔊 Audio, Printing & Networking
-
-- PipeWire, BlueZ, NetworkManager  
-- CUPS & system-config-printer  
-- ZRAM Generator for RAM performance  
-- ArchISO tools for remastering
-
----
-
-## 📥 Download Helwan Linux
-
-- 🌐 Website: [Official Site](https://helwan-linux.github.io/helwanlinux/index.html)
-- ⬇️ Direct ISO: [Download](https://drive.google.com/uc?export=download&id=1CiJqqhd64T6zUQXIh759xVZDi5_mvrei)
-
----
-
-## 🖥️ System Requirements
+## 💾 System Requirements
 
 ### ✅ Recommended:
-- 💾 4GB+ RAM
-- 💻 Dual-core 64-bit CPU
-- 💽 32GB+ Storage
-- 🖼️ Any modern GPU
+- 4GB+ RAM  
+- Dual-core+ 64-bit CPU  
+- 32GB+ storage  
+- Any modern GPU
 
 ### ⚠️ Minimum:
-- 💾 3GB RAM
-- 💻 Any 64-bit CPU
-- 💽 16GB Storage
-- 🖥️ Integrated GPU
+- 3GB RAM  
+- Any 64-bit CPU  
+- 16GB storage  
+- Integrated GPU (or external)
 
 ---
 
-## 🧪 Useful Aliases
+# 🌍 Helwan Linux Community & Resources
+
+Thank you for your interest in **Helwan Linux** — an Arch-based Linux distribution crafted especially for developers.
+
+---
+
+## 📣 Community Coverage & Mentions
+
+Helwan Linux has been featured by various international platforms, tech blogs, and open-source communities. Below is a curated selection of video reviews, articles, and discussions:
+
+### 🎥 Video Reviews
+
+- 🇫🇷 [French (PeerTube)](https://peertube.pcservice46.fr/w/t4w7FgJXbX94CFoxRpDNcF)  
+- 🇪🇸 [Spanish (YouTube)](https://www.youtube.com/watch?v=gC157gQ4XaY)
+
+### 📰 Articles & Media
+
+- 📰 [ItsFOSS News](https://news.itsfoss.com/helwan-linux/)  
+- 📰 [Linux Today](https://www.linuxtoday.com/blog/helwan-o-s-egypts-all-purpose-linux-distribution/)  
+- 📰 [LinuxLinks](https://www.linuxlinks.com/halwan-arch-based-distro-developers/)  
+- 📰 [Gladilov.org.ru (Russian)](https://gladilov.org.ru/blog/all/new-virtual-os-29-04-2025/)  
+- 📰 [LaserOffice Blog (Italian)](https://www.laseroffice.it/blog/2025/05/19/helwan-os-la-distribuzione-gnu-linux-multiuso-egiziana/)  
+- 📰 [Linux-OS.net (Spanish)](https://linux-os.net/top-nuevas-distros-linux-bsd-a-ser-reconocidas-en-2025-parte-05/)  
+- 🌐 [Official GitHub Pages](https://helwan-linux.github.io/helwan-linux/)  
+- 📅 [Distrowatch Weekly (Waiting List)](https://distrowatch.com/weekly.php?issue=20250428#waiting)  
+- 🗳️ [Distrowatch Voting Link](https://distrowatch.com/dwres.php?resource=links#new)
+
+### 💬 Community & Social Mentions
+
+- 💬 [NodeBB Forum Discussion](https://community.nodebb.org/topic/0ba72d69-b035-40ee-994b-de24fff9f964/helwan-o.s-egypt-s-all-purpose-linux-distribution)  
+- 💬 [Facebook Post (Pop!_OS Group)](https://www.facebook.com/groups/poposlinux/posts/9736730526439215/)  
+- 💼 [Christine Hall on LinkedIn](https://www.linkedin.com/posts/christine-hall-writer_helwan-os-egypts-all-purpose-linux-distribution-activity-7329113784617168896-zGVZ)  
+- 📰 [TuxMachines News](https://news.tuxmachines.org/n/2025/05/01/Halwan_Linux_is_an_Arch_based_distro_for_developers.shtml)  
+- 🖼️ [ENDEAVOUROS Forum Screenshot](https://forum.endeavouros.com/t/share-your-desktop-2025/69504/252)
+
+---
+
+*If you'd like to write about Helwan Linux or contribute to the project, feel free to connect or fork us on GitHub!*
+
+**✨ Believe in yourself, no matter what.**
+
+---
+
+## 🔗 Official Resources
+
+- 🖥️ [Website](https://helwan-linux.github.io/helwanlinux/index.html)  
+- 🗨️ [Forum (Looking for supervisors!)](https://helwanlinux.createaforum.com/index.php)  
+- 📘 [Facebook Page](https://www.facebook.com/profile.php?id=61571106461288)
+
+---
+
+## 📬 Contact Us
+
+✉️ **Want your video featured here? Interested in collaboration?**  
+📧 **E-mail**: [helwanlinux@gmail.com](mailto:helwanlinux@gmail.com)
+
+---
+
+## 🧪 Useful Commands (Aliases)
 
 ```bash
-alias sync="sudo pacman -Syyy"
-alias install="sudo pacman -S"
-alias update="sudo pacman -Syyu"
-alias search="sudo pacman -Ss"
-alias search-local="sudo pacman -Qs"
-alias pkg-info="sudo pacman -Qi"
-alias local-install="sudo pacman -U"
-alias helwan="uname -a"
+alias sync="sudo pacman -Syyy"            # Force sync with all mirrors
+alias install="sudo pacman -S"            # Install a package
+alias update="sudo pacman -Syyu"          # Update all system packages
+alias search="sudo pacman -Ss"            # Search package in repos
+alias search-local="sudo pacman -Qs"      # Search installed packages
+alias pkg-info="sudo pacman -Qi"          # Show package details
+alias local-install="sudo pacman -U"      # Install local .pkg.tar.zst
+alias helwan="uname -a"                   # Display system info
+
+## License
+
+This project is licensed under the **GNU General Public License v3**. See the [LICENSE](LICENSE) file for more details.
