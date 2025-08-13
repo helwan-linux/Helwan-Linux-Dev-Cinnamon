@@ -1,50 +1,36 @@
 #!/bin/bash
 
 # Program Description: Deletes directories "out/" and "work/" 
-# Developer: Saeed badrelden [saeedbadrelden2021@gmail.com]
-# Operating System Distribution: Helwan OS
-# Distro Mail:helwanlinux@gmail.com
+# Developer: Saeed Badrelden [saeedbadrelden2021@gmail.com]
+# OS Distribution: Helwan OS
 # Version: al-amal
-# Date: [25 Mar 2025]
-# Blogger:https://helwan-linux.blogspot.com/
-# WebSite:https://helwan-linux.mystrikingly.com/
-# Forum:https://helwanlinux.createaforum.com/index.php
+# Date: 25 Mar 2025
 
-#set -e
+# Colors
+GREEN="\033[0;32m"
+RED="\033[0;31m"
+YELLOW="\033[1;33m"
+NC="\033[0m"
 
+# Function to delete directory
+delete_dir() {
+    local DIR="$1"
+    if [ -d "$DIR" ]; then
+        read -p "Delete directory '$DIR'? (y/n): " confirm
+        if [[ "$confirm" == "y" ]]; then
+            sudo rm -rvf "$DIR"
+            echo -e "${GREEN}Directory '$DIR' deleted.${NC}"
+        else
+            echo -e "${YELLOW}Deletion of '$DIR' canceled.${NC}"
+        fi
+    else
+        echo -e "${RED}Directory '$DIR' does not exist.${NC}"
+    fi
+}
 
-OUT_DIR="out/"
-WORK_DIR="work/"
+# Main
+delete_dir "out/"
+sleep 2
+delete_dir "work/"
 
-
-if [ -d "$OUT_DIR" ]; then
-  read -p "delete directory $OUT_DIR? (y/n): " confirm_out
-  if [[ "$confirm_out" == "y" ]]; then
-    sudo rm -rvf "$OUT_DIR"
-    echo "Directory $OUT_DIR deleted"
-  else
-    echo "Deletion of directory $OUT_DIR canceled"
-  fi
-else
-  echo "Directory $OUT_DIR does not exist"
-fi
-
-
-echo "Waiting for 10 seconds..."
-sleep 10
-
-
-if [ -d "$WORK_DIR" ]; then
-  read -p "delete directory $WORK_DIR? (y/n): " confirm_work
-  if [[ "$confirm_work" == "y" ]]; then
-    sudo rm -rvf "$WORK_DIR"
-    echo "Directory $WORK_DIR deleted"
-  else
-    echo "Deletion of directory $WORK_DIR canceled"
-  fi
-else
-  echo "Directory $WORK_DIR does not exist"
-fi
-
-
-echo "Cleaning completed... :)"
+echo -e "${GREEN}Cleaning completed ✅${NC}"
