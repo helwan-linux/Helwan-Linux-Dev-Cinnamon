@@ -1,28 +1,38 @@
 #!/bin/bash
 
-# Program Description: building Helwan Linux 
-# Developer: Saeed badrelden [saeedbadrelden2021@gmail.com]
-# Operating System Distribution: Helwan OS
-# Distro Mail:helwanlinux@gmail.com
+# Program Description: Building Helwan Linux
+# Developer: Saeed Badrelden [saeedbadrelden2021@gmail.com]
+# OS Distribution: Helwan OS
+# Distro Mail: helwanlinux@gmail.com
 # Version: al-amal
-# Date: [25 Mar 2025]
-# Blogger:https://helwan-linux.blogspot.com/
-# WebSite:https://helwan-linux.mystrikingly.com/
-# Forum:https://helwanlinux.createaforum.com/index.php
+# Date: 25 Mar 2025
+# Website: https://helwan-linux.mystrikingly.com/
+# Forum: https://helwanlinux.createaforum.com/index.php
 
+set -e  # Exit on first error
 
-echo "Building Helwan Linux Distribution..."
-echo "" # Empty line for better readability
+# Colors
+GREEN="\033[0;32m"
+RED="\033[0;31m"
+NC="\033[0m"
 
+LOGFILE="helwan_build.log"
 
-if sudo mkarchiso -v "."; then
-  echo "Helwan Linux building completed successfully!"
+echo -e "${GREEN}🚀 Starting Helwan Linux build...${NC}"
+echo "" 
+
+# Run build and save logs
+if sudo mkarchiso -v "." | tee "$LOGFILE"; then
+    echo -e "${GREEN}✅ Build completed successfully!${NC}"
 else
-  echo "Helwan Linux Distribution building failed. "
-  echo""
-  echo "Please check the logs for errors."
-  exit 1 # Exit with an error code to indicate failure
+    echo -e "${RED}❌ Build failed.${NC}"
+    echo ""
+    echo "🔍 Last 20 log lines:"
+    tail -n 20 "$LOGFILE"
+    echo ""
+    echo "📄 Full log saved to: $LOGFILE"
+    exit 1
 fi
 
-
-echo "Build process finished."
+echo ""
+echo -e "${GREEN}🏁 Build process finished.${NC}"
