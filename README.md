@@ -155,6 +155,7 @@ Helwan Linux has been featured by various international platforms, tech blogs, a
 
 ### 📰 Articles & Media
 
+- 🇬🇧 [ItsFOSS gitlab](https://itsfoss.gitlab.io/post/helwan-linux-a-made-in-egypt-linux-distribution/)
 - 🇬🇧 [ItsFOSS News](https://news.itsfoss.com/helwan-linux/)  
 - 🇬🇧 [Linux Today](https://www.linuxtoday.com/blog/helwan-o-s-egypts-all-purpose-linux-distribution/)  
 - 🇬🇧 [LinuxLinks](https://www.linuxlinks.com/halwan-arch-based-distro-developers/)  
