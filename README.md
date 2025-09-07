@@ -151,7 +151,7 @@ Helwan Linux has been featured by various international platforms, tech blogs, a
 
 ### 🎥 Video Reviews
 
-- 🇫🇷 [French (PeerTube)](https://peertube.pcservice46.fr/w/t4w7FgJXbX94CFoxRpDNcF)  
+- 🇫🇷 [DGLFI épisode 58 : La Helwan Linux, encore une base Archlinux (PeerTube – Les DGLFI secondaire)](https://peertube.pcservice46.fr/w/t4w7FgJXbX94CFoxRpDNcF) 
 - 🇪🇸 [Spanish Review 1 (YouTube)](https://www.youtube.com/watch?v=gC157gQ4XaY)  
 - 🇪🇸 [Helwan Linux: El combo perfecto de Arch, Cinnamon y herramientas que no sabías que necesitabas (YouTube – DistroTuber)](https://www.youtube.com/watch?v=OMxUR3n11iw)
 - 📀 [How to Install Helwan Linux on VirtualBox (YouTube – Connectwww)](https://www.youtube.com/watch?v=Ps7J2omO-BU&t=1s)
