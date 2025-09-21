@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="Helwan-Linux-Neo"
-iso_label="Helwan-Linux-Neo-v1"
+iso_name="Helwan-Linux-Stable"
+iso_label="Helwan-Linux-Stable-v1.2"
 iso_publisher="helwanlinux <helwanlinux@gmail.com>"
 iso_application="Helwan Linux Live/Rescue DVD"
-iso_version="v1"
+iso_version="v1.2"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
