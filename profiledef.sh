@@ -26,5 +26,5 @@ file_permissions=(
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/etc/polkit-1/rules.d"]="0:0:750"
   ["/etc/sudoers.d"]="0:0:750"
-  ["/usr/share/backgrounds/"]="0:0:755"
+  ["/usr/share/backgrounds/*"]="0:0:755"
 )
