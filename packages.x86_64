@@ -164,7 +164,7 @@ evince
 gedit
 xfce4-terminal
 gnome-calculator
-cheese
+#cheese
 gnome-screenshot
 eog
 fastfetch
