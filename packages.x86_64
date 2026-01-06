@@ -282,7 +282,7 @@ vokoscreen
 #Connection##
 #############
 firefox
-kdeconnect
+#kdeconnect
 thunderbird
 
 #########
