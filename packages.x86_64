@@ -132,10 +132,10 @@ zsh
 #########
 #kernel##
 #########
-linux-lts
-linux-lts-headers
-#linux
-#linux-headers
+#linux-lts
+#linux-lts-headers
+linux
+linux-headers
 
 ############
 #calamares##
